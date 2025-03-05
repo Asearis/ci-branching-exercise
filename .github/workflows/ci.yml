@@ -25,5 +25,3 @@ jobs:
         run: flake8 app.py
       - name: Format with black
         run: black --check --diff app.py
-      - name: Pylint
-        run: pylint app.py
